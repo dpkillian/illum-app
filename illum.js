@@ -26,3 +26,5 @@ function callback(error, response, body) {
 
 // GET REQUEST --> PRINT OUTPUT TO CONSOLE
 request.get(options, callback);
+
+// NO EDITS
