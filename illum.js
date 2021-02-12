@@ -21,6 +21,9 @@ var options = {
 function callback(error, response, body) {
     if (!error && response.statusCode == 200) {
         console.log(body);
+        // console.dir(body, {depth: null, colors   : true});
+        // console.log(JSON.stringify(body, undefined, 2));
+        // console.log(JSON.stringify(body, null, '\t' ));
     }
 }
 
